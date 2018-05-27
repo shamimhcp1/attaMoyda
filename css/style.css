@@ -1,0 +1,124 @@
+
+@media screen and (min-width: 488px) and (max-width: 575px){
+
+    .col-xs-1 { width: 8.33%;}
+    .col-xs-2 { width: 16.66%;}
+    .col-xs-3 { width: 25%;}
+    .col-xs-4 { width: 33.33%;}
+    .col-xs-5 { width: 41.66%;}
+    .col-xs-6 { width: 50%;}
+    .col-xs-7 { width: 58.33%;}
+    .col-xs-8 { width: 66.66%;}
+    .col-xs-9 { width: 75%;}
+    .col-10{ width: 83.33%; }
+    .col-11{ width: 91.66%; }
+    .col-12{ width: 100%; }
+}
+
+[class*="col-"] {
+    /*border: 1px solid black;*/
+}
+.card-header {
+    padding: 0.4rem 1rem;
+    margin-bottom: 0;
+}
+
+.img-responsive{
+    height: 100%;
+    width: 140px;
+}
+
+.pic-responsive{
+    height: 100%;
+    width: 100%;
+}
+
+#home {
+    margin-top: 40px;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+.carousel-indicators {
+    margin-right: -20%;
+}
+
+.carousel-indicators li {
+    background-color: yellow;
+
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+#mySlider {
+    border: 1px solid black;
+}
+
+#babyCareObj, #beautyHObj, #discountObj, #foodObj, #homeAppObj, #homeCleaningObj, #offerObj, #officeProductObj, #petCareObj, #popularObj, #productReqObj, #ramadanObj {
+    display: none;
+    height: 1080px;
+    width: 100%;
+}
+
+/*
+////////Side Navbar///////////
+*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: ghostwhite;
+    border-right: 1px solid grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+    margin-top: 65px;
+}
+
+.sidenav a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.bg-chaldal {
+    background-color: #FDD670;
+}
+#pointerBtn {
+    cursor:pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*
+////////Side Navbar///////////
+*/
